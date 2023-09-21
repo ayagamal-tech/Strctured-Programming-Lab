@@ -53,11 +53,11 @@ double calculateCircleArea(double radius) {
 
 int main() {
     int choice;
-    cout << "Choose a shape to calculate perimeter and area:" << endl;
-    cout << "1. Triangle" << endl;
-    cout << "2. Rectangle" << endl;
-    cout << "3. Square" << endl;
-    cout << "4. Circle" << endl;
+    cout << "Choose a shape to calculate perimeter and area:\n";
+    cout << "1. Triangle\n";
+    cout << "2. Rectangle\n";
+    cout << "3. Square\n";
+    cout << "4. Circle\n";
     cin >> choice;
 
     switch (choice) {
@@ -67,36 +67,36 @@ int main() {
         cin >> side1 >> side2 >> side3;
         cout << "Enter the base and height of the triangle: ";
         cin >> base >> height;
-        cout << "Perimeter of the triangle: " << calculateTrianglePerimeter(side1, side2, side3) << endl;
-        cout << "Area of the triangle: " << calculateTriangleArea(base, height) << endl;
+        cout << "Perimeter of the triangle: " << calculateTrianglePerimeter(side1, side2, side3) << "\n";
+        cout << "Area of the triangle: " << calculateTriangleArea(base, height) << "\n";
         break;
 
     case 2: // Rectangle
         double length, width;
         cout << "Enter the length and width of the rectangle: ";
         cin >> length >> width;
-        cout << "Perimeter of the rectangle: " << calculateRectanglePerimeter(length, width) << endl;
-        cout << "Area of the rectangle: " << calculateRectangleArea(length, width) << endl;
+        cout << "Perimeter of the rectangle: " << calculateRectanglePerimeter(length, width) << "\n";
+        cout << "Area of the rectangle: " << calculateRectangleArea(length, width) << "\n";
         break;
 
     case 3: // Square
         double side;
         cout << "Enter the length of the square's side: ";
         cin >> side;
-        cout << "Perimeter of the square: " << calculateSquarePerimeter(side) << endl;
-        cout << "Area of the square: " << calculateSquareArea(side) << endl;
+        cout << "Perimeter of the square: " << calculateSquarePerimeter(side) << "\n";
+        cout << "Area of the square: " << calculateSquareArea(side) << "\n";
         break;
 
     case 4: // Circle
         double radius;
         cout << "Enter the radius of the circle: ";
         cin >> radius;
-        cout << "Perimeter of the circle: " << calculateCirclePerimeter(radius) << endl;
-        cout << "Area of the circle: " << calculateCircleArea(radius) << endl;
+        cout << "Perimeter of the circle: " << calculateCirclePerimeter(radius) << "\n";
+        cout << "Area of the circle: " << calculateCircleArea(radius) << "\n";
         break;
 
     default:
-        cout << "Invalid choice." << endl;
+        cout << "Invalid choice.\n";
         break;
     }
 
