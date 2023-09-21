@@ -1,4 +1,0 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Task5.vcxproj, Tasks.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Task 4.cpp
-D:\Projects\Uploded Project\Strctured Programming_Lab\Tasks\Task 4\Tasks\Task 4.cpp(15,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  Tasks.vcxproj -> D:\Projects\Uploded Project\Strctured Programming_Lab\Tasks\Task 4\Debug\Task4.exe
